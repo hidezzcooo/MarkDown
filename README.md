@@ -14,7 +14,7 @@ tag:
 今非昔比，但是仍有一些函数，每个开发者都应该放入他们的工具库中，出于性能或易用性的目的。
 
 <!-- more -->
-#MarkDown
+# MarkDown
 ## `debouce`
 
 `debounce`函数可以在提升事件驱动的性能方面大显身手。如果你从没在`scroll`，`resize`，`key*`事件中使用过`deboucing`函数，那就大错特错。下面的`debounce`函数使你的代码高效:
