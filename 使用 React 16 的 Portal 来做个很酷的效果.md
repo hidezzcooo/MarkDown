@@ -1,17 +1,17 @@
 ## 使用 React 16 的 Portal 来做个很酷的效果
 
-在React 16里，更加有趣的是新增了 `Portals` 。
+在React 16里，新增了个有趣的 `Portals` 。
 
-`Portals` 让你可以在父组件之外渲染一些React控制的DOM。React[<u>文档</u>](https://reactjs.org/docs/portals.html)用一个例子做了很好地解释。它也适用于做信息提示（这是作者之前做的[<u>例子</u>](https://codepen.io/davidgilbertson/pen/ooXVyw)）。
+`Portals` 让你可以在父组件之外渲染一些React控制的DOM。React [<u>官方文档</u>](https://reactjs.org/docs/portals.html) 用一个例子做了很好地解释。它也适用于做信息提示（这是作者之前做的 [<u>例子</u>](https://codepen.io/davidgilbertson/pen/ooXVyw) ）。
 
-但这我感觉也并没有什么意思。所以让我们来点干货...
+但我感觉也并没有什么意思。所以让我们来点干货...
 
 因为 `Portals` 所做的是把一个元素添加到其他元素，并且不局限于在当前文档中。你可以将其添加到另一个文档中，也许是一个完全不同的窗口中的文件。
 
 
 下面的图片中有一个页面（图片左边），上边有一个计数器和一个艳红色的按钮，还有一个窗口（图片右边）里边有着和左边页面相同的React程序的一部分，还有同样的背景（绿色的森林）。
 
-事实上，右边的窗口是一个相同React程序，你应该已经感觉到激动了。
+事实上，右边的窗口是一个相同React程序，我想你应该已经感觉到有些激动了。
 
 ![image](https://cdn-images-1.medium.com/max/2000/1*ogsV-9IGNtaVjne2fb_oEA.png)
 
@@ -73,7 +73,7 @@ class App extends React.PureComponent {
 
 到此你可能发现 `<MyWindowPortal>` 有点特别，其中的任何内容都能够在不同的窗口中呈现。
 
-恩！你是对的，服你。`<MyWindowPortal>` 做了两件事：
+恩！你是对的，你真棒！。`<MyWindowPortal>` 做了下面两件事：
 
 >1. 当组件装载时打开一个新的浏览器窗口
 >2. 创建一个 `<MyWindowPortal>` ，并将 `props.children` 添加到新的窗口主体。
@@ -89,7 +89,7 @@ class App extends React.PureComponent {
 .   .   .
 
 
-下面是上面组件的主体部分。代码的11行就是新增的 `ReactDOM.createPortal` 方法---那就是神奇的地方。
+下面是上面组件的主体部分。代码的11行就是新增的 `ReactDOM.createPortal` 方法---神奇之处就在这里。
 
 
 ```javascript
@@ -121,9 +121,9 @@ class MyWindowPortal extends React.PureComponent {
   }
 }
 ```
-那这样有意义么？组件运行在任何地方且不返回一些东西。
+那这样有意义么？组件运行在别的地方且不返回任何东西。
 
-也许有种想法是这样的：通常来说，一个父组件对一个子组件说："嘿！给我渲染一些DOM，然后把结果添加到我身上"，子组件按着父组件说的做了。但是除此之外，这熊孩子可能这么说："不！我要在不同的窗口渲染东西，还得写一篇关于它的博客！"。
+也许有种想法是这样的：通常来说，一个父组件对一个子组件说："嘿！给我渲染一些DOM，然后把结果添加到我身上"，子组件按着父组件说的做了。但除此之外，这熊孩子可能这么说："不！我要在不同的窗口渲染东西，还得写一篇关于它的博客！"。
 
 .   .   .
 
