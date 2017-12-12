@@ -1,4 +1,15 @@
-## JavaScript Symbols, Generators and Streams
+title:  JavaScript Symbols, Generators and Streams
+author:  范志强
+date:  2017-12-11
+categories:
+- 前端技术
+- Javascript
+- Chrome
+tag:
+- ES2015
+---
+
+>原文链接：https://medium.com/front-end-hacking/javascript-symbols-generators-and-streams-1f6ef0fb1fdc
 
 ### 简介
 

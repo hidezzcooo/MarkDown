@@ -6,7 +6,7 @@ categories:
 - React
 - Javascript
 tag:
-- 使用 React 16 的 Portal 来做个很酷的效果
+- React 16 
 ---
 
 >原文链接：https://hackernoon.com/using-a-react-16-portal-to-do-something-cool-2a2d627b0202

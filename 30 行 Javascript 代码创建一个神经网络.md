@@ -1,4 +1,14 @@
-## 30 行 Javascript 代码创建一个神经网络
+title:  30行Javascript代码创建一个神经网络
+author:  范志强
+date:  2017-12-12
+categories:
+- 前端技术
+- Javascript
+tag:
+- JS
+---
+
+>原文链接：https://medium.com/front-end-hacking/javascript-symbols-generators-and-streams-1f6ef0fb1fdc
 
 ![image](https://cdn-images-1.medium.com/max/2000/1*Z6kowWUGajls6aYusTy4oA.jpeg)
 

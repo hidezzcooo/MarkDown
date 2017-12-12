@@ -1,4 +1,17 @@
-## 使用 Chrome 开发者工具调试 React 16 的性能
+title:  使用 Chrome 开发者工具调试 React 16 的性能
+author:  范志强
+date:  2017-12-8
+categories:
+- 前端技术
+- React
+- Javascript
+- Chrome
+tag:
+- React 16 
+- Chrome
+---
+
+>原文链接：https://building.calibreapp.com/debugging-react-performance-with-react-16-and-chrome-devtools-c90698a522ad
 
 React是重要的前端框架之一，它的特点是其渲染性能。React的虚拟dom以高效渲染组件而闻名-当组件在毫无察觉的情况下快速渲染的时候发生了什么？
 
