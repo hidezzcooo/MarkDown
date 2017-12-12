@@ -14,7 +14,16 @@ tag:
 >原文链接：https://building.calibreapp.com/debugging-react-performance-with-react-16-and-chrome-devtools-c90698a522ad
 
 React是重要的前端框架之一，它的特点是其渲染性能。React的虚拟dom以高效渲染组件而闻名-当组件在毫无察觉的情况下快速渲染的时候发生了什么？
+
+
+---
+
 ![image](http://wx2.sinaimg.cn/large/3fc2eae1ly1fme2axha9cg217e13gnpi.gif)
+
+
+---
+
+
 **今天，我将结合React和Chrome开发工具来演示强大的新性能跟踪功能，以及如何使用它们来找出那些渲染缓慢的组件**。
 
 这个新性能工具有三个要求：
