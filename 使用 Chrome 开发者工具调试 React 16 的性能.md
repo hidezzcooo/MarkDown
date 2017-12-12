@@ -62,7 +62,7 @@ React是重要的前端框架之一，它的特点是其渲染性能。React的�
 
 今天我们关注的是“ Scripting ”（Javascript运行时的性能）。
 
-![image](https://cdn-images-1.medium.com/max/1600/1*h9vfKotosTZEb27YhtvpdA.gif)
+![image](https://cdn-images-1.medium.com/max/2000/1*CsggR2GWwz_E7P68sYGJJA.gif)
 
 现在我们要调查那个红色的CPU消耗区。我们可以查看页面在跟踪期间呈现的元素。
 
