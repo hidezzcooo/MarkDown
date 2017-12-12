@@ -8,7 +8,7 @@ tag:
 - JS
 ---
 
->原文链接：https://medium.com/front-end-hacking/javascript-symbols-generators-and-streams-1f6ef0fb1fdc
+>原文链接：https://medium.freecodecamp.org/how-to-create-a-neural-network-in-javascript-in-only-30-lines-of-code-343dafc50d49
 
 ![image](https://cdn-images-1.medium.com/max/2000/1*Z6kowWUGajls6aYusTy4oA.jpeg)
 
