@@ -1,4 +1,15 @@
-## 使用 React 16 的 Portal 来做个很酷的效果
+title:  使用 React 16 的 Portal 来做个很酷的效果
+author:  范志强
+date:  2017-12-7
+categories:
+- 前端技术
+- React
+- Javascript
+tag:
+- 使用 React 16 的 Portal 来做个很酷的效果
+---
+
+>原文链接：https://hackernoon.com/using-a-react-16-portal-to-do-something-cool-2a2d627b0202
 
 在React 16里，新增了个有趣的 `Portals` 。
 
@@ -80,16 +91,16 @@ class App extends React.PureComponent {
 
 这不是最酷的东西吗？
 
-我兴奋的控制不住自己想去走走。
+我兴奋的控制不住自己想去自由的飞翔。
 
 .   .   .
 
-我看到一只鸭子！
+我看到了一只烤鸭！
 
 .   .   .
 
 
-下面是上面组件的主体部分。代码的11行就是新增的 `ReactDOM.createPortal` 方法---神奇之处就在这里。
+下面是上面组件的主体部分。代码的第11行就是新增的 `ReactDOM.createPortal` 方法---神奇之处就在这里。
 
 
 ```javascript
@@ -129,17 +140,17 @@ class MyWindowPortal extends React.PureComponent {
 
 现在，我知道你在想什么。
 
-你渴了，你想知道你是否应该喝点水。是的，去喝一杯吧。
+你一定渴了，你想知道你是否得喝一杯。是的，去吧。
 
-你可能会想另一件事：如果没有样式，将DOM注入到一个空白窗口中有什么好处？如果这是在Craigslist或者维基百科可能没人会注意到，但是你的网站这么漂亮绝不能这么做，不能让你弹出的小聊天窗口都使用'times-new-romany'字体。
+你可能会想到一件事：如果没有样式，将DOM注入到一个空白窗口中有什么意思？如果这是在 Craigslist 或者维基百科可能没人会注意到，但是你的网站这么漂亮怎能容忍，绝不能让弹出的聊天窗口都只能使用' times-new-romany '字体。
 
 下面告诉大家一个好消息！
 
 ![image](https://cdn-images-1.medium.com/max/2000/1*eU-7ArIucnG5OreaPIJlEg.png)
 
-起初我希望能有一种简单的方法将样式复制到新窗口中。然后我想起我的生活只不过是一些毫无意义的任务来填补时间，他们唯一的目的是让我分散注意力，从内心深处空虚嚎叫。
+起初我希望能有一种简单的方法将样式复制到新窗口中，但是没有发现。
 
-所以写了这个很有趣的函数！
+由于我实在是太闲了，空虚充斥着我的生活，所以没事就写了下面这个很有趣的函数！
 
 
 ```javascript
@@ -165,7 +176,7 @@ function copyStyles(sourceDoc, targetDoc) {
 }
 ```
 
-所有这些 `styleSheet` 并不是我真正了解的东西，所以我期待着在评论中得到这样做更聪明的方法。
+这些 `styleSheet` 我并不是十分了解，所以我期待着在评论中得到更好的办法。
 
 现在我可以在打开新窗口之后复制样式，就像这样：
 
