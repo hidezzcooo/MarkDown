@@ -7,7 +7,7 @@ categories:
 tag:
 - JS
 ---
-
+ 123的撒大三大四打算
 >原文链接：https://medium.freecodecamp.org/how-to-create-a-neural-network-in-javascript-in-only-30-lines-of-code-343dafc50d49
 
 ![image](https://cdn-images-1.medium.com/max/2000/1*Z6kowWUGajls6aYusTy4oA.jpeg)
